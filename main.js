@@ -59,3 +59,8 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.classList.add('animation-completed');
     });
 });
+document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+        document.body.classList.add('loaded');
+    }, 1500);  // 1.5 seconds delay
+});
