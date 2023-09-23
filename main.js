@@ -52,3 +52,10 @@ document.querySelector("#shopping-basket").addEventListener('click', () => {
 document.querySelector("#login-button").addEventListener('click', () => {
     // Insert your login functionality or redirect to a login page.
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Listen for the end of the animation on the body
+    document.body.addEventListener('animationend', () => {
+        document.body.classList.add('animation-completed');
+    });
+});

@@ -6,10 +6,20 @@ body, h1, h2, p, a {
     text-decoration: none;
     color: #3a3434; /* Darker shade for better readability on cream */
     text-align: center;
+    transform: scale(0.1);
+    opacity: 0;
+    animation: openBox 2s forwards; /* animation will run for 2 seconds */
+    overflow-y: hidden; /* prevent scrolling during animation */
 }
+
+body.animation-completed {
+    overflow-y: auto;
+}
+
 h1, h2 {
     font-family: 'Nunito', sans-serif;
 }
+
 body {
     background-color: #fdfcfb; /* Creamy background */
     font-size: 16px;
@@ -174,3 +184,9 @@ footer {
     transform: scale(1.1);
 }
 
+@keyframes openBox {
+    to {
+        transform: scale(1); /* final scale (box open) */
+        opacity: 1;
+    }
+}
