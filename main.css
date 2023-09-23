@@ -24,7 +24,7 @@ body, #logo {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(4);  /* scale the logo 4 times its size */
+    transform: translate(-50%, -50%) scale(1);  /* scale the logo 4 times its size */
     z-index: 1000;
     opacity: 1;
 }
