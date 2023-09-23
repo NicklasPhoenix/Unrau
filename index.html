@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Jewelry Store</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Logo as a Banner -->
+<div id="logo-banner">
+    <a href="#"><img src="attachment_119176701.png" alt="Your Jewelry Store Logo" id="logo"></a>
+</div>
+
+<!-- Sticky Navigation -->
+<header id="sticky-nav">
+    <nav>
+        <a href="#">Home</a>
+        <a href="cart.html"><span id="shopping-basket">&#x1F6CD;</span></a>
+    </nav>
+    <a href="#"><span id="login-button">&#x1F464;</span></a>
+</header>
+
+
+
+    <!-- Large Feature Image -->
+    <section id="featured" class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="jewelry_2023APR12.mobile.webp" alt="Featured Jewelry 1" class="full-width">
+            </div>
+            <div class="swiper-slide">
+                <img src="an_assortment_of_assembled_bracelets_made_from_beads_and_charms.webp" alt="Featured Jewelry 1" class="full-width">
+            </div>
+            <div class="swiper-slide">
+                <img src="maxresdefault.jpg" alt="Featured Jewelry 1" class="full-width">
+            </div>
+            <!-- You can add more slides like the above div for more images -->
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Navigation -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </section>
+    
+
+    <!-- Product Grid -->
+    <section id="products">
+        <!-- This is where you will dynamically load the products. -->
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <!-- Display a carousel of customer testimonials with images -->
+        <div class="testimonial">
+            <img src="WW-5cropped.jpg" alt="Customer Name">
+            <p>"This jewelry is stunning!" - Jane Doe</p>
+        </div>
+        <!-- Repeat .testimonial for other testimonials or use a carousel/slider plugin. -->
+    </section>
+
+    <!-- About and Social Media Links -->
+    <footer>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Our story behind crafting unique, handmade jewelry pieces.</p>
+        </section>
+        <section id="social-media">
+            <a href="#"><img src="Facebook_f_logo_(2021).svg.webp" alt="Facebook"></a>
+            <a href="#"><img src="Instagram_logo_2022.svg" alt="Instagram"></a>
+            <!-- Other social media links -->
+        </section>
+        <p>&copy; 2023 Your Jewelry Store. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+/* Reset some default styles */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    color: #3a3434; /* Darker shade for better readability on cream */
+    text-align: center;
+}
+h1, h2 {
+    font-family: 'Nunito', sans-serif;
+}
+body {
+    background-color: #fdfcfb; /* Creamy background */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Sticky Header */
+#sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: #efe8da; /* Creamy color */
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+#logo {
+    max-width: 100%;
+    height: auto;
+}
+#logo-banner {
+    text-align: center;
+    background-color: #efe8da; /* Creamy color */
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+#shopping-basket, #login-button {
+    font-size: 24px; /* Adjust size as needed */
+    margin-left: 20px; /* Spacing between icons */
+    cursor: pointer; /* Indicates clickable */
+}
+#shopping-basket:hover, #login-button:hover {
+    color: #9c27b0; /* Highlight color on hover */
+}
+#sticky-nav h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #b09a8f;
+    margin-bottom: 10px;
+}
+#sticky-nav nav {
+    display: flex;
+    justify-content: center; /* Center the nav items */
+}
+#sticky-nav nav a {
+    margin-left: 20px;
+    font-size: 18px;
+    color: #b09a8f;
+    transition: color 0.3s;
+    margin: 0 15px;
+}
+
+#sticky-nav nav a:hover {
+    color: #9c27b0;
+}
+
+/* Large Feature Image */
+#featured {
+    position: relative;
+}
+
+#featured .full-width {
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px 30px;
+    font-size: 24px;
+    color: #9c27b0;
+    border-radius: 10px;
+}
+.overlay-text {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px 30px;
+    font-size: 24px;
+    color: #9c27b0;
+    border-radius: 10px;
+    z-index: 10; 
+}
+
+/* Product Grid - you can expand this as per need */
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 0;
+}
+
+/* Testimonials */
+#testimonials {
+    background-color: #f7f2ec;
+    padding: 30px 0;
+    text-align: center; 
+}
+
+.testimonial img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+.testimonial {
+    display: flex;
+    justify-content: center; /* Center the image and the testimonial text */
+    align-items: center;
+}
+
+/* Footer Sections */
+/* ... (previous styles) */
+
+/* Footer Sections */
+/* ... (previous styles) */
+
+/* Footer Sections */
+footer {
+    background-color: #e5dcd1;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* This will stack the children vertically */
+    align-items: center; /* Centers the children horizontally */
+}
+
+#about, #social-media {
+    box-sizing: border-box;
+    width: 80%; /* Adjust width according to preference */
+    padding: 0 20px;
+    margin: 10px 0; /* Provide some space between the sections */
+    text-align: left;
+}
+
+#social-media {
+    display: flex;
+    justify-content: center; /* Center the social media icons */
+    gap: 10px; /* Create space between icons */
+}
+
+#about p, #social-media a {
+    margin: 10px 0; /* Space out items for clarity */
+}
+
+#social-media img {
+    margin-right: 10px;
+    width: 40px; /* Adjust according to preference */
+    transition: transform 0.3s;
+}
+
+#social-media img:hover {
+    transform: scale(1.1);
+}
+

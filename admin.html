@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Jewelry Store</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Your Jewelry Store</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Cart</a>
+            <a href="#">Login/Register</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="add-product-section">
+            <h2>Add Product</h2>
+            <form id="add-product-form">
+                <input type="text" name="product_name" placeholder="Product Name" required>
+                <textarea name="description" placeholder="Description" required></textarea>
+                <input type="number" name="price" placeholder="Price" required step="0.01">
+                <input type="url" name="image_url" placeholder="Image URL">
+                <input type="number" name="stock_quantity" placeholder="Stock Quantity" required>
+                <button type="submit">Add Product</button>
+            </form>
+        </section>
+
+        <section id="products">
+            <!-- Products will be dynamically added here, 
+                 you can later add update and delete buttons for each product -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your Jewelry Store. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
